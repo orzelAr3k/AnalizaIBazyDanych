@@ -1,0 +1,9 @@
+name: TIER
+dependencies:
+    - python==3.9
+    - numpy
+    - matplotlib
+    - jupyter
+    - scipy
+    - pandas
+    - imageio
