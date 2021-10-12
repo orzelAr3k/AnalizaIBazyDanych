@@ -31,10 +31,10 @@ Dzienne dane pogodowe z Global Historical Climatology Network dla jednej stacji 
 *Skrypt wykonywany na danych dostępny w folderze /CommandFiles/Lab2.ipynb, wraz z komentarzami w kodzie.*
 
 **Dane po analizie dostępne:**
-** 'Name' - string, [nazwa urządzenia ]
-** 'Year' - string, [rok, w którym został dokonany pomiar]
-** 'Month' - string, [miesiąc, w którym został dokonany pomiar]
-** 'Element' - string, [rodzaj pomiaru]
-** 'd1' ... 'd31' - float, [pomiar wiekości mierzonej (zakres 0 - 100)]
+- 'Name' - string, [nazwa urządzenia ]
+- 'Year' - string, [rok, w którym został dokonany pomiar]
+- 'Month' - string, [miesiąc, w którym został dokonany pomiar]
+- 'Element' - string, [rodzaj pomiaru]
+- 'd1' ... 'd31' - float, [pomiar wiekości mierzonej (zakres 0 - 100)]
 
 
