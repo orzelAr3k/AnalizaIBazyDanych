@@ -7,7 +7,8 @@ Zmienne:
 - TMAX - temperatura maksymalna
 - PRCP - ilość opadów atmosferycznych
 
-**Szczegóły (kategorie, i wykresy słupkowe)** są dostępne w **/CommandFiles/lab2.ipynb**
+**Szczegóły**
+<img src="../Documents/WykresTemperaturMeksyk.jpg">
 
-## weather_output.csv
+## weather_processed.csv
 Ten plik zawiera skumulowane i przefiltrowane informacje z pliku weather.txt
