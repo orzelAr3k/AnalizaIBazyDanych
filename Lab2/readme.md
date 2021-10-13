@@ -30,6 +30,25 @@ Dzienne dane pogodowe z Global Historical Climatology Network dla jednej stacji 
 
 *Skrypt wykonywany na danych dostępny w folderze /CommandFiles/Lab2.ipynb, wraz z komentarzami w kodzie.*
 
+## Etap operacji na danych
+1. Dane zostały poddane oczyszczeniu i uporządkowaniu poprzez zastosowanie wyrażeń regularnych
+```
+weather = re.sub(r"[OSD]|I(?![A-Z])", "", weather)
+# usunięcie spacji
+weather = re.sub(r" +", " ", weather)
+# usunięcie połączonych napisów z danymi
+weather = re.sub(r"(?<=[A-Z])\-", " -", weather)
+```
+2. Utworzono odpowiedni obiekt *DataFrame* oraz sformatowano tabelę
+3. Znormalizowano danę poprzez podzielenie wartości tabeli przez 10
+```
+weather.iloc[:, 4:].div(10, axis=1)
+```
+4. Usunięto błędę dane 
+5. Przegrupowano dane za pomocą funkcji *melt()*
+6. Utworzony wykresy zależności temperatur
+
+
 **Dane po analizie dostępne:**
 - 'Name' - string, [nazwa urządzenia ]
 - 'Year' - string, [rok, w którym został dokonany pomiar]

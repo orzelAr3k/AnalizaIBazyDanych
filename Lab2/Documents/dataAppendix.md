@@ -7,7 +7,7 @@ Zmienne:
 - TMAX - temperatura maksymalna
 - PRCP - ilość opadów atmosferycznych
 
-**Szczegóły**
+**Wykresy temperatur**
 <img src="../Documents/WykresTemperaturMeksyk.jpg">
 
 ## weather_processed.csv
