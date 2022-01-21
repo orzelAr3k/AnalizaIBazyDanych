@@ -1,5 +1,4 @@
 from copy import deepcopy
-from typing import Union
 
 def bubble_sort(lst):
     if len(lst) < 1 or not all(isinstance(x, (int, float)) for x in lst):
@@ -20,7 +19,3 @@ def bubble_sort(lst):
             num_of_iterations += 1
         
         return sorted_list
-
-
-lst = [1, 2, 3, 4]
-print(bubble_sort(lst))
